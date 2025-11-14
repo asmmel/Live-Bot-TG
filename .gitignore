@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+dist/
+client/dist/
+
+# Database
+*.sqlite
+*.sqlite-journal
+data/
+
+# Uploads
+uploads/
+public/uploads/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
